@@ -2,6 +2,9 @@
 
 GeoPulse is a specialized server application designed to handle real-time geolocation data from clients via the UDP protocol. The server captures location coordinates and processes them for various uses, such as real-time tracking and historical data retrieval. GeoPulse is optimized utilizing [GeoJSON](https://geojson.org/) and [Swoole](https://github.com/swoole/swoole-src) to handle numerous simultaneous UDP connections. It integrates seamlessly with [Laravel](https://laravel.com/) queue system, allowing you to capture tracking events using Laravel jobs.
 
+[pt-BR]
+> GeoPulse é um aplicativo de servidor especializado projetado para lidar com dados de geolocalização em tempo real de clientes por meio do protocolo UDP. O servidor captura coordenadas de localização e as processa para diversos usos, como rastreamento em tempo real e recuperação de dados históricos. GeoPulse é otimizado utilizando GeoJSON e Swoole para lidar com inúmeras conexões UDP simultâneas. Ele se integra perfeitamente ao sistema de filas do Laravel, permitindo capturar eventos de rastreamento usando trabalhos do Laravel.
+
 ## Why GeoPulse?
 
 ### HTTP Location Updates (Slower)
