@@ -310,3 +310,7 @@ $container->add(BroadcastPacketService::class, function () use ($config) {
     return $broadcaster;
 });
 ```
+## Fontes:
+- https://blog.pulsestracker.com/real-time-location-tracking-with-laravel-and-pulsetrackers-redis-pubsub-1?source=more_articles_bottom_blogs
+- https://blog.pulsestracker.com/listen-for-realtime-location-updates-from-pulsetracker-on-your-backend-with-python-pusher-1?source=more_articles_bottom_blogs
+  
